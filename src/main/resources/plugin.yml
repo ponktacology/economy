@@ -1,6 +1,6 @@
 name: Economy
 version: '${project.version}'
-main: me.ponktacology.economy.Economy
+main: me.ponktacology.economy.EconomyPlugin
 api-version: 1.18
 commands:
   bal:
