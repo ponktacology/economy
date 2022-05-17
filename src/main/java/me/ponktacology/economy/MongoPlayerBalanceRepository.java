@@ -19,9 +19,7 @@ class MongoPlayerBalanceRepository implements PlayerBalanceRepository {
     @Override
     public int getBalance(Player player) {
         final Document document = collection.find(Filters.eq("uuid", player.getUniqueId().toString())).first();
-
         if (document == null) return 0;
-
         return document.getInteger("balance");
     }
 

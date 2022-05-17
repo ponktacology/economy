@@ -21,7 +21,6 @@ public class EarnCommand implements CommandExecutor {
         this.playerBalanceRepository = playerBalanceRepository;
     }
 
-
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof ConsoleCommandSender) {
