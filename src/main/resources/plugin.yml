@@ -2,3 +2,8 @@ name: Economy
 version: '${project.version}'
 main: me.ponktacology.economy.Economy
 api-version: 1.18
+commands:
+  bal:
+  earn:
+  give:
+  setbal:
